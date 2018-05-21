@@ -1,0 +1,84 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;
+    color: red;
+    
+}
+
+#scoreContainer{
+    width: 600px;
+    height: 400px;
+    border-style: solid;
+    margin: 0 auto;
+    font-size: 28pt;
+    text-align: center;
+    color: red;
+}
+
+.startContainer{
+    width: 600px;
+    height: 400px;
+    border-style: solid;
+    margin: 0 auto;
+    font-size: 28pt;
+    background-image: url("./../images/download.jpg");
+    font-family: 'Faster One', cursive;
+    text-align: center;
+}
+
+.submitBtn{ 
+    background-color: #bd122d;
+    margin-left: 45%;
+    width: 200px;
+    height: 65px;
+    font-family: 'Faster One', cursive;
+}
+
+.startButton{
+    width: 400px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 140px;
+    width: 100%;
+    background-color: #bd122d;
+    font-family: 'Faster One', cursive;
+}
+
+.answerContainer {
+    margin-bottom: 20px;
+    color: red;
+}
+
+#timerDiv {
+        margin: 0 auto;
+        text-align: center;
+        color: red;
+
+}
+#timeRemain {
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+
+}
+
+.timeContainer {
+    margin-bottom: 3%;
+    font-size: 24pt;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Faster One', cursive;
+    font-size: 45pt;
+    
+}
+
+body{
+    background-image: url("./../images/rink.jpg")
+}
+

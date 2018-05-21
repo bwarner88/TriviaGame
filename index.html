@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <header>Hockey Trivia</header>
+
+
+
+    <div class="startContainer">
+        Press Start to take the quiz!!
+        <button type="button" class="startButton">Start!</button>
+    </div>
+
+    <div id="scoreContainer">
+        <div id="correct">Correct:<span id="correctAnswers"></span></div>
+        <div id="incorrect">Incorrect:<span id="incorrectAnswers"></span></div>
+        <button type="button" class="restartBtn">Try Again!</button>
+    </div>
+
+<div class="timeContainer">
+    <div id="timerDiv">Remaining Time:<span id="timeRemain"></span>
+    </div>
+</div>
+
+    <div class="container">
+        <div id="question_1">Who has won the most stanley cups?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_1" id="ques1_Answer1" value="wrong" autocomplete="off"> Los Angeles Kings
+                <input type="radio" name="question_1" id="ques1_Answer2" value="wrong" autocomplete="off"> Detroit Red Wings
+                <input type="radio" name="question_1" id="ques1_Answer3" value="right" autocomplete="off"> Montreal Canadiens
+                <input type="radio" name="question_1" id="ques1_Answer4" value="wrong" autocomplete="off"> Boston Bruins
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class='container'>
+        <div id="question_2">Who has played in the NHL the longest?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_2" id="ques2_Answer1" value="wrong" autocomplete="off">Mark Messier
+                <input type="radio" name="question_2" id="ques2_Answer2" value="right" autocomplete="off"> Gordie Howe
+                <input type="radio" name="question_2" id="ques2_Answer3" value="wrong" autocomplete="off"> Wayne Gretzky
+                <input type="radio" name="question_2" id="ques2_Answer4" value="wrong" autocomplete="off"> Chris Chelios
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="question_3">Who has scored the most goals in the NHL?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_3" id="ques3_Answer1" value="wrong" autocomplete="off"> Joe Sakic
+                <input type="radio" name="question_3" id="ques3_Answer2" value="wrong" autocomplete="off"> Sergei Federov
+                <input type="radio" name="question_3" id="ques3_Answer3" value="wrong" autocomplete="off"> Alexader Ovechkin
+                <input type="radio" name="question_3" id="ques3_Answer4" value="right" autocomplete="off"> Wayne Gretzky
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="question_4">How many playoffs in a row did the red wings go to?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_4" id="ques4_Answer1" value="wrong" autocomplete="off"> 9
+                <input type="radio" name="question_4" id="ques4_Answer2" value="right" autocomplete="off"> 25
+                <input type="radio" name="question_4" id="ques4_Answer3" value="wrong" autocomplete="off"> 17
+                <input type="radio" name="question_4" id="ques4_Answer4" value="wrong" autocomplete="off"> 23
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="question_5">Who has the most points if they never scored a goal?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_5" id="ques5_Answer1" value="right" autocomplete="off"> Wayne Gretzky
+                <input type="radio" name="question_5" id="ques5_Answer2" value="wrong" autocomplete="off"> Teemu Selanne
+                <input type="radio" name="question_5" id="ques5_Answer3" value="wrong" autocomplete="off"> Luc Robatille
+                <input type="radio" name="question_5" id="ques5_Answer4" value="wrong" autocomplete="off"> Steve Yzerman
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="question_6">How many teams did the NHL start out with?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_6" id="ques6_Answer1" value="wrong" autocomplete="off"> 12
+                <input type="radio" name="question_6" id="ques6_Answer2" value="wrong" autocomplete="off"> 9
+                <input type="radio" name="question_6" id="ques6_Answer3" value="wrong" autocomplete="off"> 20
+                <input type="radio" name="question_6" id="ques6_Answer4" value="right" autocomplete="off"> 6
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="question_7">How much does the Stanley Cup weigh?</div>
+        <div class="answerContainer">
+            <div class="btn-group btn-group-radio" data-toggle="radio">
+                <input type="radio" name="question_7" id="ques7_Answer1" value="right" autocomplete="off"> 35 pounds
+                <input type="radio" name="question_7" id="ques7_Answer2" value="wrong" autocomplete="off"> 14 pounds
+                <input type="radio" name="question_7" id="ques7_Answer3" value="wrong" autocomplete="off"> 19 pounds
+                <input type="radio" name="question_7" id="ques7_Answer4" value="wrong" autocomplete="off"> 28 pounds
+            </div>
+        </div>
+    </div>
+
+
+<div class="btnContainer">
+    <button type="button" class="submitBtn">Submit</button>
+</div>
+</body>
+
+</html>
